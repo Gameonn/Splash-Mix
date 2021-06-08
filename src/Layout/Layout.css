@@ -1,0 +1,38 @@
+.top-container {
+  background-image: url("../images/top-container-bkgd.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 350px;
+  display: table;
+  width: 100%;
+  background-size: cover;
+}
+.top-container .content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.top-container .content > .col {
+  text-align: left;
+  background: #0000003d;
+  color: #fff;
+  border-radius: 15px;
+}
+.top-container h3 {
+  font-weight: 600;
+}
+.top-container .input-field {
+  border: 1px solid #eee;
+  background: #fff;
+  border-radius: 10px;
+}
+.top-container .input-field input {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.search-btn-div {
+  padding-top: 8px !important;
+  text-align: center;
+}
+.top-container .content > .col i {
+  color: #000;
+}
